@@ -28,8 +28,8 @@ int main() {
     int R, C;
     cin >> R >> C;
 
-    int grid[R][1000];
-    int dp[R + 1][1000];
+    int grid[1000][1000];
+    int dp[1000][1000];
 
     for (int i = 0; i < R; i++) {
         for (int j = 0; j < C; j++) {
